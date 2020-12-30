@@ -1,10 +1,10 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledSvg = styled.svg`
-  width: ${({ w = "auto" }) => w};
+  width: ${({ w = '18px' }) => w};
   height: auto;
 
   & path {
-    fill: ${({ theme, color = "auto" }) => theme[color]};
+    fill: ${({ theme, color = 'white' }) => theme[color]};
   }
 `
