@@ -1,6 +1,6 @@
 import Theme from '@styles/Theme'
 import GlobalStyles from '@styles/GlobalStyles'
-import Layout from '@atoms/Layout'
+import Layout from 'Layout'
 import { ThemeProvider } from 'styled-components'
 
 export default function App({ Component, pageProps }) {
