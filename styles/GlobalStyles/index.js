@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     vertical-align: baseline;
     box-sizing: border-box;
   }
@@ -46,6 +46,7 @@ const GlobalStyles = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+
 `
 
 export default GlobalStyles

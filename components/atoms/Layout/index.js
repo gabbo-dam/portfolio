@@ -7,19 +7,38 @@ const Layout = ({ children }) => {
       <Head>
         <link
           rel='preload'
-          href='/fonts/Poppins-Regular.ttf'
+          href='/fonts/PlayfairDisplay-Regular.ttf'
           as='font'
           crossOrigin=''
         />
         <link
           rel='preload'
-          href='/fonts/Poppins-Medium.ttf'
+          href='/fonts/PlayfairDisplay-Medium.ttf'
           as='font'
           crossOrigin=''
         />
         <link
           rel='preload'
-          href='/fonts/Poppins-SemiBold.ttf'
+          href='/fonts/PlayfairDisplay-Bold.ttf'
+          as='font'
+          crossOrigin=''
+        />
+
+        <link
+          rel='preload'
+          href='/fonts/IBMPlexMono-Regular.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/IBMPlexMono-Medium.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/IBMPlexMono-Bold.ttf'
           as='font'
           crossOrigin=''
         />
@@ -31,21 +50,40 @@ const Layout = ({ children }) => {
         <style jsx global>
           {`
             @font-face {
-              font-family: 'Poppins';
-              src: url('/fonts/Poppins-Regular.ttf');
+              font-family: 'Playfair Display', serif;
+              src: url('/fonts/PlayfairDisplay-Regular.ttf');
               font-weight: 400;
               font-style: normal;
             }
             @font-face {
-              font-family: 'Poppins';
-              src: url('/fonts/Poppins-Medium.ttf');
+              font-family: 'Playfair Display', serif;
+              src: url('/fonts/PlayfairDisplay-Medium.ttf');
               font-weight: 500;
               font-style: normal;
             }
             @font-face {
-              font-family: 'Poppins';
-              src: url('/fonts/Poppins-SemiBold.ttf');
-              font-weight: 600;
+              font-family: 'Playfair Display', serif;
+              src: url('/fonts/PlayfairDisplay-Bold.ttf');
+              font-weight: 700;
+              font-style: normal;
+            }
+
+            @font-face {
+              font-family: 'IBM Plex Mono', monospace;
+              src: url('/fonts/IBMPlexMono-Regular.ttf');
+              font-weight: 400;
+              font-style: normal;
+            }
+            @font-face {
+              font-family: 'IBM Plex Mono', monospace;
+              src: url('/fonts/IBMPlexMono-Medium.ttf');
+              font-weight: 500;
+              font-style: normal;
+            }
+            @font-face {
+              font-family: 'IBM Plex Mono', monospace;
+              src: url('/fonts/IBMPlexMono-Bold.ttf');
+              font-weight: 700;
               font-style: normal;
             }
           `}
