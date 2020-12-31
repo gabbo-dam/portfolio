@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledSocialMediaNav = styled.nav`
+export const StyledPhotoName = styled.div`
   display: flex;
   width: ${({ w = '150px' }) => w};
   justify-content: space-between;

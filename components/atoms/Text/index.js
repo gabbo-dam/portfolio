@@ -1,7 +1,11 @@
 import { StyledText } from './styles'
 
 const Text = (props) => {
-  return <StyledText {...props.children}>{props.children}</StyledText>
+  return (
+    <StyledText color={props.color} {...props.children}>
+      {props.children}
+    </StyledText>
+  )
 }
 
 export default Text
