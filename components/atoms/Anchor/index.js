@@ -4,7 +4,16 @@ import { StyledAnchor } from './styles'
 const Anchor = (props) => {
   return (
     <Link href={props.href}>
-      <StyledAnchor {...props.children}>{props.children}</StyledAnchor>
+      <StyledAnchor
+        color={props.color}
+        fs={props.fs}
+        m={props.m}
+        p={props.p}
+        fw={props.fw}
+        font={props.font}
+      >
+        {props.children}
+      </StyledAnchor>
     </Link>
   )
 }

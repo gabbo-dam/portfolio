@@ -7,11 +7,13 @@ import MainTitle from '@atoms/MainTitle'
 const GeneralTitle = () => {
   return (
     <StyledGeneralTitle>
-      <Title>Gabriel Morales</Title>
+      <Title color='white'>Gabriel Morales</Title>
 
-      <MainTitle fs='16px'>Front-end developer</MainTitle>
+      <MainTitle color='gray' fs='16px'>
+        Front-end developer
+      </MainTitle>
 
-      <Button />
+      <Button>See More</Button>
     </StyledGeneralTitle>
   )
 }

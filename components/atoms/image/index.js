@@ -1,13 +1,15 @@
 import Image from 'next/image'
+import { StyledImg } from './styles'
 
-function User(props) {
+const User = (props) => {
   return (
-    <Image
-      src='/images/user.jpg'
-      alt='User Imagen'
-      width='100%'
-      height='100%'
-    ></Image>
+    <StyledImg
+      src={props.src}
+      alt={props.alt}
+      w={props.w}
+      h={props.h}
+      br={props.br}
+    />
   )
 }
 

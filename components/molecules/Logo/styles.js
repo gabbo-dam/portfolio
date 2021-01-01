@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledPhotoName = styled.div`
+export const StyledLogo = styled.div`
   display: flex;
   width: ${({ w = '150px' }) => w};
   justify-content: space-between;
