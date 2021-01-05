@@ -7,4 +7,5 @@ export const StyledButton = styled.button`
   background-color: ${({ theme, bg = 'white' }) => theme[bg]};
   border: 0;
   outline: 0;
+  cursor: pointer;
 `
