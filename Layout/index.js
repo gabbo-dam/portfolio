@@ -6,41 +6,41 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <link
-          rel='preload'
-          href='/fonts/PlayfairDisplay-Regular.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/PlayfairDisplay-Regular.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
-          rel='preload'
-          href='/fonts/PlayfairDisplay-Medium.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/PlayfairDisplay-Medium.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
-          rel='preload'
-          href='/fonts/PlayfairDisplay-Bold.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/PlayfairDisplay-Bold.ttf"
+          as="font"
+          crossOrigin=""
         />
 
         <link
-          rel='preload'
-          href='/fonts/IBMPlexMono-Regular.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/IBMPlexMono-Regular.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
-          rel='preload'
-          href='/fonts/IBMPlexMono-Medium.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/IBMPlexMono-Medium.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
-          rel='preload'
-          href='/fonts/IBMPlexMono-Bold.ttf'
-          as='font'
-          crossOrigin=''
+          rel="preload"
+          href="/fonts/IBMPlexMono-Bold.ttf"
+          as="font"
+          crossOrigin=""
         />
 
         <title>Gabriel Morales</title>
