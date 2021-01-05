@@ -7,4 +7,5 @@ export const StyledLogo = styled.div`
   margin: ${({ m = '0' }) => m};
   padding: ${({ p = '20px 0px' }) => p};
   background-color: ${({ theme, bg = 'auto' }) => theme[bg]};
+  text-align: center;
 `

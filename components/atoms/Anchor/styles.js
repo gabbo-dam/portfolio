@@ -7,7 +7,7 @@ export const StyledAnchor = styled.a`
   text-decoration: none;
   margin: ${({ m = '0' }) => m};
   padding: ${({ p = '0' }) => p};
-  color: ${({ theme, color = 'auto' }) => theme[color]};
+  color: ${({ theme, color = 'gray' }) => theme[color]};
   font-size: ${({ fs = '17px' }) => fs};
   // font-family: ${({ font = 'Playfair Display' }) => font};
   font-weight: ${({ fw = '500' }) => fw};

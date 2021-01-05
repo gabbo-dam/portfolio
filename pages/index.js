@@ -1,11 +1,7 @@
-import Header from '@organisms/Header'
+import Home from '@templates/Home'
 
 const Index = () => {
-  return (
-    <>
-      <Header />
-    </>
-  )
+  return <Home />
 }
 
 export default Index

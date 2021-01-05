@@ -11,6 +11,7 @@ const Anchor = (props) => {
         p={props.p}
         fw={props.fw}
         font={props.font}
+        href={props.href}
       >
         {props.children}
       </StyledAnchor>
