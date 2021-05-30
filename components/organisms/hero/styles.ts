@@ -17,7 +17,8 @@ export const StyledContainer = styled(Container)`
 
 export const HeroContainer = styled(Container)`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 200px 0 0 0;
+  @media(min-width: 768px){
+    grid-template-columns: repeat(2, 1fr);
+  }
 `

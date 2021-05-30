@@ -2,7 +2,7 @@ import React from "react";
 
 function Icon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 500">
+    <svg xmlns="http://www.w3.org/2000/svg" width='100%' viewBox="0 0 750 500">
       <g>
         <path fill="#fff" d="M24.1 79.59H176.4V181.56H24.1z"></path>
         <path

@@ -8,7 +8,7 @@ export const CardsContainer = styled(Container)`
   display: grid;
   gap: 20px;
 
-  @media (min-width: 900px){
+  @media (min-width: 768px){
     grid-template-columns: repeat(4, 1fr);
   }
 `

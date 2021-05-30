@@ -11,6 +11,7 @@ import { StyledContainer, InterestContainer } from './styles'
 const About: React.FC = () => {
   return(
     <StyledContainer>
+      
       <Coding />
 
       <Container>
