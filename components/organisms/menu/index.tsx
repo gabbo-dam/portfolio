@@ -6,11 +6,11 @@ import { MenuContainer, StyledContainer } from './styles'
 
 const Menu: React.FC = () => {
   return(
-    <>
+    <StyledContainer>
       <MenuContainer>
         <NavBar />
       </MenuContainer>
-    </>
+    </StyledContainer>
   )
 }
 

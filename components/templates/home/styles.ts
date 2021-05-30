@@ -7,3 +7,8 @@ export const StyledContainer = styled(Container)`
   width: 80%;
   margin: 0 auto;
 `
+export const Background = styled(Container)`
+  background-image: url(/img/bg.svg);
+  background-attachment: fixed;
+  background-size: cover;
+`

@@ -11,12 +11,13 @@ import { StyledContainer, InterestContainer } from './styles'
 const About: React.FC = () => {
   return(
     <StyledContainer>
+      <Coding />
+
       <Container>
         <Title>About me</Title>
         <Text>Hi I'm Gabriel, Front-end Developer based in Houston Texas. Passionate about education and technology, which leads me to be in constant learning and growth. I dedicated myself to create web applications and interfaces, give them functionality. Programming and learn are one of the things I like the most.</Text>
       </Container>
 
-      <Coding />
 
       <Grid col='1 / 3'>
         <Title>Interests</Title>

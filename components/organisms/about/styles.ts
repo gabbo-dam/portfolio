@@ -6,6 +6,7 @@ export const StyledContainer = styled(Container)`
   padding: 200px 0 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  
 `
 export const InterestContainer = styled(Container)`
   display: grid;
