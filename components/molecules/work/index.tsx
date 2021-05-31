@@ -4,9 +4,9 @@ import Grid from '@atoms/grid'
 
 import { StyledContainer } from './styles'
 
-import ExperienceProps from './types'
+import WorkProps from './types'
 
-const Experience: React.FC<ExperienceProps> = (props) => {
+const Work: React.FC<WorkProps> = (props) => {
   return(
     <StyledContainer>
       <Grid>
@@ -24,4 +24,4 @@ const Experience: React.FC<ExperienceProps> = (props) => {
   )
 }
 
-export default Experience
+export default Work

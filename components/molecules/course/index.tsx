@@ -4,9 +4,9 @@ import Grid from '@atoms/grid'
 
 import { StyledContainer } from './styles'
 
-import EducationProps from './types'
+import CourseProps from './types'
 
-const Education: React.FC<EducationProps> = (props) => {
+const Course: React.FC<CourseProps> = (props) => {
   return(
     <StyledContainer>
         <Text>{props.date}</Text>
@@ -16,4 +16,4 @@ const Education: React.FC<EducationProps> = (props) => {
   )
 }
 
-export default Education
+export default Course

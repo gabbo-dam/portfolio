@@ -1,7 +1,5 @@
 import Title from '@atoms/title'
-import Tech from '@molecules/tech'
-import Experience from '@molecules/experience'
-import Education from '@molecules/education'
+
 import SvgText from '@molecules/svgtext'
 
 
@@ -20,29 +18,14 @@ import Figma from '@atoms/svg/icons/figma'
 import Photoshop from '@atoms/svg/icons/photoshop'
 import Illustrator from '@atoms/svg/icons/illustrator'
 
+import { StyledContainer, StyledTech, Background } from './styles'
 
-import { StyledContainer, StyledTech } from './styles'
 
 
-const Resume: React.FC = () => {
+const Tech: React.FC = () => {
   return(
     <StyledContainer>
-      <Title>Experience</Title>
-
-      <Experience 
-      position='Frontend Developer'
-      company='Smart Cookie Group'
-      time='Freelance'
-      date='Jan 17 - Current'
-      description='WeLab is a consectetur adipisicing elit. Perferen abnostrum rerum ea velit, deserunt sunt dicta inventore neque, reiciendis ignissimos adipi delectus!'
-      />
-
-      <Title>Education</Title>
-
-      <Education
-      title='React'
-      date='2020'
-      description='Curso de React' />
+      <Background>
 
       <Title>Tools and Technologies</Title>
 
@@ -90,8 +73,10 @@ const Resume: React.FC = () => {
           <Illustrator />
         </SvgText>
       </StyledTech>
+      </Background>
+
     </StyledContainer>
   )
 }
 
-export default Resume
+export default Tech

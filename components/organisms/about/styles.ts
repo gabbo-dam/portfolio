@@ -11,10 +11,7 @@ export const StyledContainer = styled(Container)`
 `
 export const InterestContainer = styled(Container)`
   display: grid;
-  gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-
-
   @media (min-width: 768px) {
     grid-template-columns: repeat(5, 1fr);
   }

@@ -1,4 +1,4 @@
-export default interface ExperienceProps {
+export default interface WorkProps {
   position: string
   company: string
   time: string
