@@ -11,7 +11,7 @@ const Layout = (props:any) => {
         {props.children}
         <style jsx global>
           {`
-            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Teko&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
           `}
         </style>
       </StyledLayout>

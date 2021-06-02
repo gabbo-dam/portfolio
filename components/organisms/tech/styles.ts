@@ -5,11 +5,7 @@ import Container from '@atoms/container'
 export const StyledContainer = styled(Container)`
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
 `
-export const Background = styled(Container)`
-  background: url(/img/bg_tech.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-`
+
 export const StyledTech = styled(Container)`
   display: grid;
   text-align: center;

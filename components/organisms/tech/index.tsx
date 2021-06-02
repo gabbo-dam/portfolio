@@ -17,15 +17,15 @@ import Node from '@atoms/svg/icons/node'
 import Figma from '@atoms/svg/icons/figma'
 import Photoshop from '@atoms/svg/icons/photoshop'
 import Illustrator from '@atoms/svg/icons/illustrator'
+import TechBg from '@atoms/svg/icons/tech_bg'
 
-import { StyledContainer, StyledTech, Background } from './styles'
+import { StyledContainer, StyledTech } from './styles'
 
 
 
 const Tech: React.FC = () => {
   return(
     <StyledContainer>
-      <Background>
 
       <Title>Tools and Technologies</Title>
 
@@ -73,8 +73,7 @@ const Tech: React.FC = () => {
           <Illustrator />
         </SvgText>
       </StyledTech>
-      </Background>
-
+      <TechBg />
     </StyledContainer>
   )
 }
