@@ -12,10 +12,11 @@ export const HeroContainer = styled(Container)`
   width: 80%;
   height: 600px;
   margin: 0 auto;
-  display: grid;
   align-items: center;
+  
 
   @media(min-width: 768px){
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 `
