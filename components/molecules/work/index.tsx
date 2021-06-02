@@ -1,6 +1,7 @@
 import Title from '@atoms/title'
 import Text from '@atoms/text'
-import Grid from '@atoms/grid'
+import Container from '@atoms/container'
+
 
 import { StyledContainer } from './styles'
 
@@ -9,16 +10,17 @@ import WorkProps from './types'
 const Work: React.FC<WorkProps> = (props) => {
   return(
     <StyledContainer>
-      <Grid>
+      <Container>
+
         <Title>{props.position}</Title>
         <Text>{props.company}</Text>
         <Text>{props.time}</Text>
         <Text>{props.date}</Text>
-      </Grid>
-      <Grid>
-        <Title>Resume</Title>
+      </Container>
+      <Container>
+
         <Text>{props.description}</Text>
-      </Grid>
+      </Container>
 
     </StyledContainer>
   )

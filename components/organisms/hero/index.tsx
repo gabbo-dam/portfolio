@@ -1,29 +1,29 @@
-
-import Grid from '@atoms/grid'
+import styled from 'styled-components'
+import Container from '@atoms/container'
 import CoolCoding from '@atoms/svg/icons/coolcoding'
 import HeroFooter from '@atoms/svg/icons/herofooter'
 
-import { Background, HeroContainer,StyledTitle, StyledText, StyledContainer } from './styles'
+import { Background, HeroContainer, StyledTitle, StyledText, StyledContainer, IconContainer, MobileContainer, Description } from './styles'
 
 const Hero: React.FC = () => {
   return(
     <Background>
       <HeroContainer>
-        <Grid col='1 / 2'>
-          <StyledContainer>
-            <StyledText size='32px'>Hello, I'm Gabriel Morales</StyledText>
+        <StyledContainer>
+          <MobileContainer>
+            <StyledText>Hello, I'm Gabriel Morales</StyledText>
             <StyledTitle>Front-end Developer</StyledTitle>
-            <StyledText>Dedicated to creating web applications and learn something new every day</StyledText>
-            <StyledText>2021</StyledText>
-          </StyledContainer>
-        </Grid>
-        <Grid col='2 / 3'>
+          </MobileContainer>
+          <Description>Dedicated to creating web applications and learn something new every day</Description>
+        </StyledContainer>
+        <IconContainer>
           <CoolCoding />
-        </Grid>
+        </IconContainer>
       </HeroContainer>
       <HeroFooter />
     </Background>
   )
 }
+
 
 export default Hero
