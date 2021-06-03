@@ -7,6 +7,7 @@ import Container from '@atoms/container'
 
 export const Background = styled(Container)`
   background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+  
 `
 
 export const HeroContainer = styled(Container)`

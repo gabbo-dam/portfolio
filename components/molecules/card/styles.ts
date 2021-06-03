@@ -14,6 +14,9 @@ export const StyledCard = styled(Container)`
   border-radius: 40px ;
   color: #000000;
   text-align: center;
+  border: 1px solid #1E1B4E;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.36);
+
 `
 export const CardContent = styled(Container)`
   width: 80%;
@@ -31,7 +34,7 @@ export const CardFooter = styled(Container)`
   font-weight: 400;
 `
 export const StyledImg = styled(Img)`
-  border-radius: 37px 37px 0 0;
+  border-radius: 40px 40px 0 0;
 `
 export const StyledAnchor = styled(Anchor)`
   color: #5700EF;

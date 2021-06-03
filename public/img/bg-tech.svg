@@ -41,16 +41,18 @@
      inkscape:window-height="1051"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="0.81"
-     inkscape:cx="750"
-     inkscape:cy="138"
+     inkscape:zoom="0.405"
+     inkscape:cx="-9.3040673"
+     inkscape:cy="361.33679"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
   <path
-     d="m 1559.14,54.649 c 0,0 -6.81,35.1756 -283.4,14.5727 C 999.15,48.6189 777.061,-65.4504 431.665,54.649 86.2695,174.748 -82.0001,122.99 -82.0001,122.99 l 34.0627,163.87411 1629.5574,-1.71207"
+     d="m 1559.14,114.44661 c 0,0 -6.81,26.11755 -283.4,10.82009 C 999.15,109.96932 777.061,25.273951 431.665,114.44661 86.2695,203.61897 -82.0001,165.18915 -82.0001,165.18915 l 34.0627,121.67496 1629.5574,-1.2712"
      fill="#ffffff"
      id="path2"
-     sodipodi:nodetypes="cscccc" />
+     sodipodi:nodetypes="cscccc"
+     style="stroke-width:0.861679" />
 </svg>

@@ -1,4 +1,3 @@
-import Title from '@atoms/title'
 
 import SvgText from '@molecules/svgtext'
 
@@ -17,17 +16,19 @@ import Node from '@atoms/svg/icons/node'
 import Figma from '@atoms/svg/icons/figma'
 import Photoshop from '@atoms/svg/icons/photoshop'
 import Illustrator from '@atoms/svg/icons/illustrator'
-import TechBg from '@atoms/svg/icons/tech_bg'
+// import TechBg from '@atoms/svg/icons/tech_bg'
 
-import { StyledContainer, StyledTech } from './styles'
+import { StyledContainer, StyledTech, Background, StyledTitle, Space, TechBg } from './styles'
 
 
 
 const Tech: React.FC = () => {
   return(
+    <Background>
+    <TechBg>
     <StyledContainer>
 
-      <Title>Tools and Technologies</Title>
+      <StyledTitle>Tools and Technologies</StyledTitle>
 
       <StyledTech>
         <SvgText text='HTML'>
@@ -73,8 +74,10 @@ const Tech: React.FC = () => {
           <Illustrator />
         </SvgText>
       </StyledTech>
-      <TechBg />
+      <Space />
     </StyledContainer>
+    </TechBg>
+    </Background>
   )
 }
 

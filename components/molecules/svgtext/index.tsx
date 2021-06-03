@@ -1,6 +1,5 @@
-import Text from '@atoms/text'
 
-import { StyledContainer } from './styles'
+import { StyledContainer, StyledText } from './styles'
 
 import SvgTextProps from './types'
 
@@ -8,7 +7,7 @@ const SvgText: React.FC<SvgTextProps> = (props) => {
   return(
     <StyledContainer>
       {props.children}
-      <Text>{props.text}</Text>
+      <StyledText>{props.text}</StyledText>
     </StyledContainer>
   )
 }

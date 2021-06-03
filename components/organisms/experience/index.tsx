@@ -7,7 +7,7 @@ import BgTop from '@atoms/svg/icons/bg_top_resume'
 import BgBottom from '@atoms/svg/icons/bg_bottom_resume'
 
 
-import { Background, StyledContainer, ExperienceContainer, WorkContainer, StyledWork, TopBar } from './styles'
+import { Background, StyledContainer, ExperienceContainer, WorkContainer, StyledWork, TopBar, Resume } from './styles'
 
 
 const Experience: React.FC = () => {
@@ -21,7 +21,7 @@ const Experience: React.FC = () => {
       <StyledContainer>
 
         <Title>Experience</Title>
-        <Title>Resume</Title>
+        <Resume>Resume</Resume>
       </StyledContainer>
       </TopBar>
 
@@ -30,7 +30,7 @@ const Experience: React.FC = () => {
         company='Smart Cookie Group'
         time='Freelance'
         date='Jan 17 - Current'
-        description='WeLab is a consectetur adipisicing elit. Perferen abnostrum rerum ea velit, deserunt sunt dicta inventore neque, reiciendis ignissimos adipi delectus!'
+        description='Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer et iaculis orci. '
         />
         
       </WorkContainer>
