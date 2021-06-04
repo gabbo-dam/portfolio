@@ -16,6 +16,7 @@ import Node from '@atoms/svg/icons/node'
 import Figma from '@atoms/svg/icons/figma'
 import Photoshop from '@atoms/svg/icons/photoshop'
 import Illustrator from '@atoms/svg/icons/illustrator'
+import StyledComponents from '@atoms/svg/icons/styledcomponents'
 // import TechBg from '@atoms/svg/icons/tech_bg'
 
 import { StyledContainer, StyledTech, Background, StyledTitle, Space, TechBg } from './styles'
@@ -49,8 +50,8 @@ const Tech: React.FC = () => {
         <SvgText text='Next'>
           <Next />
         </SvgText>
-        <SvgText text='Styled Components'>
-          <Next />
+        <SvgText text='Styled'>
+          <StyledComponents />
         </SvgText>
         <SvgText text='Git'>
           <Git />

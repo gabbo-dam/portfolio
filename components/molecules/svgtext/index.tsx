@@ -1,14 +1,17 @@
 
-import { StyledContainer, StyledText } from './styles'
+import { StyledContainer, StyledText, BorderWrap } from './styles'
 
 import SvgTextProps from './types'
 
 const SvgText: React.FC<SvgTextProps> = (props) => {
   return(
-    <StyledContainer>
-      {props.children}
-      <StyledText>{props.text}</StyledText>
-    </StyledContainer>
+    <BorderWrap>
+      
+      <StyledContainer>
+        {props.children}
+        <StyledText>{props.text}</StyledText>
+      </StyledContainer>
+    </BorderWrap>
   )
 }
 

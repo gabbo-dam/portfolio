@@ -38,8 +38,8 @@ export const WorkContainer = styled(Container)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 70px auto;
-  overflow:scroll;
-  overflow-x:hidden;
+  // overflow:scroll;
+  // overflow-x:hidden;
 `
 export const StyledWork = styled(Work)`
 

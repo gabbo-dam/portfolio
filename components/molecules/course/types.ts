@@ -1,5 +1,5 @@
 export default interface CourseProps {
-  title: string
-  date: string
+  education?: string
+  date?: string
   description: string
 }

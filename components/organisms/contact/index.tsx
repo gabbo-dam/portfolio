@@ -1,5 +1,6 @@
-import Title from '@atoms/title'
 import SvgText from '@molecules/svgtext'
+
+import Anchor from '@atoms/anchor'
 
 import LinkedIn from '@atoms/svg/icons/linkedin'
 import GitHub from '@atoms/svg/icons/github'
@@ -8,37 +9,41 @@ import Instagram from '@atoms/svg/icons/instagram'
 import BgTop from '@atoms/svg/icons/bg_contact_top'
 import BgBottom from '@atoms/svg/icons/bg_contact_bottom'
 
-import { StyledContainer, ContactContainer, ContactGrid } from './styles'
-
+import {
+  StyledContainer,
+  ContactContainer,
+  ContactGrid,
+  StyledTitle,
+} from './styles'
 
 const Contact: React.FC = () => {
-  return(
+  return (
     <StyledContainer>
       <BgTop />
       <ContactContainer>
-      <Title>Contact Me!</Title>
-      <ContactGrid>
-        <SvgText
-        text='linkedIn'
-        >
-          <LinkedIn />
-        </SvgText>
-        <SvgText
-        text='GitHub'
-        >
-          <GitHub />
-        </SvgText>
-        <SvgText
-        text='Telegram'
-        >
-          <Telegram />
-        </SvgText>
-        <SvgText
-        text='Instagram'
-        >
-          <Instagram />
-        </SvgText>
-      </ContactGrid>
+        <StyledTitle>Contact Me!</StyledTitle>
+        <ContactGrid>
+          <Anchor href="https://www.linkedin.com/in/gabriel-morales-670338190/">
+            <SvgText text="linkedIn">
+              <LinkedIn />
+            </SvgText>
+          </Anchor>
+          <Anchor href="https://github.com/gabbo-dam">
+            <SvgText text="GitHub">
+              <GitHub />
+            </SvgText>
+          </Anchor>
+          <Anchor href="">
+            <SvgText text="Telegram">
+              <Telegram />
+            </SvgText>
+          </Anchor>
+          <Anchor href="https://www.instagram.com/gabbo.mv/">
+            <SvgText text="Instagram">
+              <Instagram />
+            </SvgText>
+          </Anchor>
+        </ContactGrid>
       </ContactContainer>
       <BgBottom />
     </StyledContainer>

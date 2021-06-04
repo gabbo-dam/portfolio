@@ -10,7 +10,7 @@ const Course: React.FC<CourseProps> = (props) => {
   return(
     <StyledContainer>
         <Text>{props.date}</Text>
-        <Title>{props.title}</Title>
+        <Title>{props.education}</Title>
         <Text>{props.description}</Text>
     </StyledContainer>
   )

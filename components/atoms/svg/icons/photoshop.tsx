@@ -1,37 +1,32 @@
-import React from "react";
+import * as React from "react"
 
-function Icon() {
+function SvgComponent(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="50"
-      height="50"
-      version="1.1"
+      width={50}
+      height={50}
       viewBox="0 130.746 11.906 11.903"
+      {...props}
     >
       <radialGradient
-        id="a"
-        cx="-183.69"
-        cy="328.972"
-        r="0.76"
+        id="prefix__a"
+        cx={-183.69}
+        cy={328.972}
+        r={0.76}
         gradientTransform="matrix(10.91346 0 0 10.83712 2008.783 -3431.473)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stopColor="#34364e" stopOpacity="0.98"></stop>
-        <stop offset="1" stopColor="#0c0824"></stop>
+        <stop offset={0} stopColor="#34364e" stopOpacity={0.98} />
+        <stop offset={1} stopColor="#0c0824" />
       </radialGradient>
+      <path d="M.496 131.196H11.41v10.888H.496z" fill="url(#prefix__a)" />
       <path
-        fill="url(#a)"
-        strokeWidth="0.02"
-        d="M.496 131.196H11.41v10.888H.496z"
-      ></path>
-      <path
-        fill="#31c5f0"
-        strokeWidth="0.02"
         d="M.496 131.196H11.41v10.888H.496zM0 142.593h11.906v-11.906H0zm8.026-7.022c-.392 0-.525.204-.525.372 0 .183.089.31.615.59.778.387 1.022.758 1.022 1.302 0 .814-.606 1.252-1.424 1.252-.432 0-.804-.092-1.017-.219-.035-.015-.04-.04-.04-.081v-.748c0-.051.025-.066.06-.04.312.208.67.3.997.3.392 0 .555-.169.555-.397 0-.184-.114-.346-.615-.611-.704-.346-.997-.697-.997-1.282 0-.656.501-1.2 1.37-1.2.426 0 .724.065.887.142.04.025.05.066.05.101v.697c0 .041-.025.067-.075.051-.218-.142-.54-.229-.863-.229zm-4.266.606c.114.01.204.01.402.01.58 0 1.126-.209 1.126-1.018 0-.646-.392-.971-1.052-.971-.198 0-.387.01-.476.015zm-.883-2.702c0-.036.07-.061.11-.061.317-.015.788-.025 1.28-.025 1.373 0 1.909.773 1.909 1.76 0 1.292-.913 1.847-2.034 1.847-.188 0-.253-.01-.387-.01v1.953c0 .041-.015.061-.06.061h-.758c-.04 0-.06-.015-.06-.06v-5.465z"
-      ></path>
+        fill="#31c5f0"
+      />
     </svg>
-  );
+  )
 }
 
-export default Icon;
+export default SvgComponent
