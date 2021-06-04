@@ -8,37 +8,37 @@ import Instagram from '@atoms/svg/icons/instagram'
 import BgTop from '@atoms/svg/icons/bg_contact_top'
 import BgBottom from '@atoms/svg/icons/bg_contact_bottom'
 
-import { StyledContainer, ContactContainer } from './styles'
+import { StyledContainer, ContactContainer, ContactGrid } from './styles'
 
 
 const Contact: React.FC = () => {
   return(
     <StyledContainer>
       <BgTop />
-      <Title>Contact Me!</Title>
       <ContactContainer>
-
-      <SvgText
-      text='linkedIn'
-      >
-        <LinkedIn />
-      </SvgText>
-      <SvgText
-      text='GitHub'
-      >
-        <GitHub />
-      </SvgText>
-      <SvgText
-      text='Telegram'
-      >
-        <Telegram />
-      </SvgText>
-      <SvgText
-      text='Instagram'
-      >
-        <Instagram />
-      </SvgText>
-
+      <Title>Contact Me!</Title>
+      <ContactGrid>
+        <SvgText
+        text='linkedIn'
+        >
+          <LinkedIn />
+        </SvgText>
+        <SvgText
+        text='GitHub'
+        >
+          <GitHub />
+        </SvgText>
+        <SvgText
+        text='Telegram'
+        >
+          <Telegram />
+        </SvgText>
+        <SvgText
+        text='Instagram'
+        >
+          <Instagram />
+        </SvgText>
+      </ContactGrid>
       </ContactContainer>
       <BgBottom />
     </StyledContainer>

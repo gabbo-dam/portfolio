@@ -1,13 +1,12 @@
-import Title from '@atoms/title'
 import Card from '@molecules/card'
 
-import { StyledContainer, CardsContainer } from './styles'
+import { StyledContainer, CardsContainer, StyledTitle } from './styles'
 
 
 const Projects: React.FC = () => {
   return(
     <StyledContainer>
-      <Title>My Projects</Title>
+      <StyledTitle>My Projects</StyledTitle>
       <CardsContainer>
         <Card
         src='/img/hero.jpg'
