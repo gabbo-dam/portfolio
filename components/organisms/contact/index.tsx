@@ -23,22 +23,22 @@ const Contact: React.FC = () => {
       <ContactContainer>
         <StyledTitle>Contact Me!</StyledTitle>
         <ContactGrid>
-          <Anchor href="https://www.linkedin.com/in/gabriel-morales-670338190/">
+          <Anchor href="https://www.linkedin.com/in/gabriel-morales-670338190/" target="_blank">
             <SvgText text="linkedIn">
               <LinkedIn />
             </SvgText>
           </Anchor>
-          <Anchor href="https://github.com/gabbo-dam">
+          <Anchor href="https://github.com/gabbo-dam" target="_blank">
             <SvgText text="GitHub">
               <GitHub />
             </SvgText>
           </Anchor>
-          <Anchor href="">
+          <Anchor href="https://t.me/damiand420" target="_blank">
             <SvgText text="Telegram">
               <Telegram />
             </SvgText>
           </Anchor>
-          <Anchor href="https://www.instagram.com/gabbo.mv/">
+          <Anchor href="https://www.instagram.com/gabbo.mv/" target="_blank">
             <SvgText text="Instagram">
               <Instagram />
             </SvgText>
