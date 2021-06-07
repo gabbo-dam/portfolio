@@ -7,7 +7,6 @@ import Container from '@atoms/container'
 
 export const Background = styled(Container)`
   background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
-  
 `
 
 export const HeroContainer = styled(Container)`
@@ -57,7 +56,7 @@ export const IconContainer = styled(Container)`
   }
 `
 export const MobileContainer = styled(Container)`
-  width: 50%;
+  width: 70%;
   @media(min-width: 768px){
     width: 100%;
 
