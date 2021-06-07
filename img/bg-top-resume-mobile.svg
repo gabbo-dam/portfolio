@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1500"
-   height="424"
-   viewBox="0 0 1500 424"
+   height="263.36899"
+   viewBox="0 0 1500 263.36899"
    fill="none"
    version="1.1"
    id="svg4"
-   sodipodi:docname="background-top-resume.svg"
+   sodipodi:docname="bg-top-resume-mobile.svg"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata10">
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -50,8 +51,9 @@
      inkscape:current-layer="svg4"
      inkscape:document-rotation="0" />
   <path
-     d="m -59.5176,340.211 c 0,0 6.8125,-54.125 283.4016,-22.423 276.589,31.701 498.678,207.219 844.076,22.423 345.39,-184.797 513.66,-105.156 513.66,-105.156 L 1547.56,-12.345679 -81.999,-9.3255518"
+     d="m -59.5176,208.65736 c 0,0 6.8125,-32.70053 283.4016,-13.54723 276.589,19.15269 498.678,125.19483 844.076,13.54723 345.39,-111.64821 513.66,-63.53177 513.66,-63.53177 L 1547.56,-4.345679 -81.999,-2.521018"
      fill="#ffffff"
      id="path2"
-     sodipodi:nodetypes="cccccc" />
+     sodipodi:nodetypes="cccccc"
+     style="stroke-width:0.777282" />
 </svg>

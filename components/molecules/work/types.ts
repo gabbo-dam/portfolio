@@ -1,7 +1,7 @@
 export default interface WorkProps {
   position: string
   company: string
-  time: string
+  time?: string
   date: string
-  description: string
+  description?: string
 }

@@ -32,7 +32,7 @@ export const ExperienceContainer = styled(Container)`
 `
 export const WorkContainer = styled(Container)`
   margin: 30px 0;
-  height: 350px;
+  padding: 0 0 30px 0;
   background: #ffffff;
   border-radius: 30px;
   display: grid;
@@ -42,7 +42,7 @@ export const WorkContainer = styled(Container)`
   // overflow-x:hidden;
 `
 export const StyledWork = styled(Work)`
-
+  padding: 30px 0 0 0;
 `
 export const TopBar = styled(Container)`
   grid-column: 1 / 3;

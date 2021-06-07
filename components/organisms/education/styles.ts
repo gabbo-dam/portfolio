@@ -1,16 +1,38 @@
 import styled from 'styled-components'
 
 import Text from '@atoms/text'
-
 import Container from '@atoms/container'
+import Title from '@atoms/title'
+
+
 
 export const StyledContainer = styled(Container)`
   width: 80%;
   margin: 0 auto;
   display: grid;
   @media (min-width: 768px){
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
+    margin: -100px auto 0 auto;
+
   }
+`
+export const StyledTreeMobile = styled(Container)`
+  display: block;
+  @media (min-width: 768px){
+    display: none;
+  }
+`
+export const StyledTree = styled(Container)`
+  display: none;
+
+  @media (min-width: 768px){
+  display: block;
+
+  }
+`
+export const StyledTitle = styled(Title)`
+  text-align: center;
+  grid-column: 1 / 3;
 `
 export const GridHistory = styled(Container)`
   margin: 25px 0;
