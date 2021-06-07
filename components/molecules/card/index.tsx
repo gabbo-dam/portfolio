@@ -37,7 +37,7 @@ const Card: React.FC<CardProps> = (props) => {
           </ButtonContainer>
         </CardContent>
         <CardFooter>
-          <StyledText>Date xx, 20xx</StyledText>
+          <StyledText>Date {props.date}</StyledText>
         </CardFooter>
     </StyledCard>
   )

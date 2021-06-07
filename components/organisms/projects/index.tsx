@@ -15,6 +15,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/portfolio'
         title='Gabriel'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 06, 2021"
         />        
         <Card
         src='/img/jetswap.png'
@@ -23,6 +24,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/jetswap-frontend2'
         title='Jetswap'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 05, 2021"
         />        
         <Card
         src='/img/fortress.png'
@@ -31,6 +33,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/fortress-landing'
         title='Fortress'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 05, 2021"
         />        
         <Card
         src='/img/polaris.png'
@@ -39,6 +42,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/galaxy-frontend-farms'
         title='Polaris'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 04, 2021"
         />        
         <Card
         src='/img/wsb.png'
@@ -47,6 +51,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/farming-wsb'
         title='WSB'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 03, 2021"
         />        
         <Card
         src='/img/unilayer.png'
@@ -55,6 +60,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/YieldFarming'
         title='Unilayer'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 02, 2021"
         />        
         <Card
         src='/img/voodoo.png'
@@ -63,6 +69,7 @@ const Projects: React.FC = () => {
         repo='https://github.com/gabbo-dam/VoodooDollar'
         title='Voodoo'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 02, 2021"
         />        
         <Card
         src='/img/simon_dice.png'
@@ -71,6 +78,7 @@ const Projects: React.FC = () => {
         repo='#'
         title='Simon Said'
         text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        date=" 11, 2020"
         />        
       </CardsContainer>
     </StyledContainer>
