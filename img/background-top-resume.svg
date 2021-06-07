@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1500"
-   height="424"
-   viewBox="0 0 1500 424"
+   height="200"
+   viewBox="0 0 1500 200"
    fill="none"
    version="1.1"
    id="svg4"
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -50,8 +51,9 @@
      inkscape:current-layer="svg4"
      inkscape:document-rotation="0" />
   <path
-     d="m -59.5176,340.211 c 0,0 6.8125,-54.125 283.4016,-22.423 276.589,31.701 498.678,207.219 844.076,22.423 345.39,-184.797 513.66,-105.156 513.66,-105.156 L 1547.56,-12.345679 -81.999,-9.3255518"
+     d="m -59.5176,138.28319 c 0,0 6.8125,-37.24873 283.4016,-15.43147 276.589,21.81657 498.678,142.60774 844.076,15.43147 345.39,-127.17696 513.66,-72.368172 513.66,-72.368172 l -34.06,-170.260698 -1629.559,2.07845"
      fill="#ffffff"
      id="path2"
-     sodipodi:nodetypes="cccccc" />
+     sodipodi:nodetypes="cccccc"
+     style="stroke-width:0.829577" />
 </svg>

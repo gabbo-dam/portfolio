@@ -15,7 +15,7 @@ export const StyledCard = styled(Container)`
   color: #000000;
   text-align: center;
   border: 1px solid #1E1B4E;
-  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.36);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.36);
 
 `
 export const CardContent = styled(Container)`

@@ -28,10 +28,10 @@ const Card: React.FC<CardProps> = (props) => {
             {props.text}
           </StyledText>
           <ButtonContainer>
-            <StyledAnchor href={props.site}>
+            <StyledAnchor href={props.site} target='_blank'>
               Go to Site
             </StyledAnchor>
-            <StyledAnchor href={props.repo}>
+            <StyledAnchor href={props.repo} target='_blank'>
               Go to Repo
             </StyledAnchor>
           </ButtonContainer>

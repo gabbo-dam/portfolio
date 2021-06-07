@@ -5,7 +5,6 @@ import Container from '@atoms/container'
 import Title from '@atoms/title'
 
 
-
 export const StyledContainer = styled(Container)`
   width: 80%;
   margin: 0 auto;
@@ -16,26 +15,13 @@ export const StyledContainer = styled(Container)`
 
   }
 `
-export const StyledTreeMobile = styled(Container)`
-  display: block;
-  @media (min-width: 768px){
-    display: none;
-  }
-`
-export const StyledTree = styled(Container)`
-  display: none;
-
-  @media (min-width: 768px){
-  display: block;
-
-  }
-`
 export const StyledTitle = styled(Title)`
   text-align: center;
   grid-column: 1 / 3;
 `
 export const GridHistory = styled(Container)`
   margin: 25px 0;
+  align-items: center;
   @media (min-width: 768px){
     margin: 25px 0 50px 0;
 
@@ -62,7 +48,7 @@ export const Right3 = styled(Container)`
   grid-column: 1 / 2;
   grid-row: 5 / 6 ;
   text-align: right;
-
+  
 `
 export const Center = styled(Container)`
   margin: 0 auto;
