@@ -10,7 +10,7 @@ import { StyledCard, CardContent, StyledImg, CardFooter, StyledAnchor, StyledTex
 const Card: React.FC<CardProps> = (props) => {
   return(
     <StyledCard>
-      <Anchor href={props.site}>
+      <Anchor href={props.site}  target='_blank'>
           <StyledImg 
           src={props.src}
           alt={props.alt}

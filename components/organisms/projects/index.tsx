@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       <StyledTitle>My Projects</StyledTitle>
       <CardsContainer>
         <Card
-        src='/img/hero.jpg'
+        src='/img/portfolio.png'
         alt='Portafolio Image'
         site='/'
         repo='https://github.com/gabbo-dam/portfolio'

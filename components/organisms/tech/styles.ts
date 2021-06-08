@@ -4,6 +4,7 @@ import Title from '@atoms/title'
 import Container from '@atoms/container'
 
 export const StyledContainer = styled(Container)`
+  
   width: 80%;
   margin: 0 auto ;
   background: #ffffff;

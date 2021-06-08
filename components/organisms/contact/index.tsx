@@ -8,22 +8,27 @@ import Telegram from '@atoms/svg/icons/telegram'
 import Instagram from '@atoms/svg/icons/instagram'
 import BgTop from '@atoms/svg/icons/bg_contact_top'
 import BgBottom from '@atoms/svg/icons/bg_contact_bottom'
+import Download from '@atoms/svg/icons/download'
 
 import {
   StyledContainer,
   ContactContainer,
   ContactGrid,
   StyledTitle,
+  DownloadCV,
 } from './styles'
 
 const Contact: React.FC = () => {
   return (
-    <StyledContainer id='contact'>
+    <StyledContainer id="contact">
       <BgTop />
       <ContactContainer>
         <StyledTitle>Contact Me!</StyledTitle>
         <ContactGrid>
-          <Anchor href="https://www.linkedin.com/in/gabriel-morales-670338190/" target="_blank">
+          <Anchor
+            href="https://www.linkedin.com/in/gabriel-morales-670338190/"
+            target="_blank"
+          >
             <SvgText text="linkedIn">
               <LinkedIn />
             </SvgText>
@@ -43,6 +48,13 @@ const Contact: React.FC = () => {
               <Instagram />
             </SvgText>
           </Anchor>
+          <DownloadCV
+            href="/cv/Gabriel-Morales.pdf"
+            download
+          >
+            <Download />
+            Download CV
+          </DownloadCV>
         </ContactGrid>
       </ContactContainer>
       <BgBottom />
