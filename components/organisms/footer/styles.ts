@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Container from '@atoms/container'
 import Text from '@atoms/text'
 
-export const StyledContainer = styled(Container)`
+export const StyledContainer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;

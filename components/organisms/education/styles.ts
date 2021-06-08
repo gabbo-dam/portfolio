@@ -5,7 +5,7 @@ import Container from '@atoms/container'
 import Title from '@atoms/title'
 
 
-export const StyledContainer = styled(Container)`
+export const StyledContainer = styled.section`
   width: 80%;
   margin: 0 auto;
   display: grid;

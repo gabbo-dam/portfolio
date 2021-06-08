@@ -3,7 +3,7 @@ import Text from '@atoms/text'
 import Title from '@atoms/title'
 import Container from '@atoms/container'
 
-export const StyledContainer = styled(Container)`
+export const StyledContainer = styled.section`
   width: 80%;
   margin: 0 auto;
   align-items: center;

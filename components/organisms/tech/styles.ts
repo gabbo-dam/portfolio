@@ -17,7 +17,7 @@ export const StyledContainer = styled(Container)`
 
   }
 `
-export const Background = styled(Container)`
+export const Background = styled.section`
   padding: 100px 0 0 0;
   margin: 0 0 50px 0;
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
