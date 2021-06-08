@@ -19,7 +19,7 @@ import {
 
 const Education: React.FC = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id='education'>
         <StyledTitle>Education</StyledTitle>
       <GridHistory>
       <Right>

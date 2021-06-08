@@ -21,7 +21,15 @@ export const StyledTitle = styled(Title)`
   text-align: center;
   margin: 50px 0 25px 0 ;
   height: 40px;
-
+  &:after{
+    content: '';
+    display:block;
+    margin: 15px auto 0 auto;
+    width:50px;
+    height:7px;
+    background: #FD749B;
+    border-radius: 50px;
+  }
 
   @media (min-width: 768px){
     margin: 50px 0 ;

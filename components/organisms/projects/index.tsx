@@ -5,7 +5,7 @@ import { StyledContainer, CardsContainer, StyledTitle } from './styles'
 
 const Projects: React.FC = () => {
   return(
-    <StyledContainer>
+    <StyledContainer id='portfolio'>
       <StyledTitle>My Projects</StyledTitle>
       <CardsContainer>
         <Card

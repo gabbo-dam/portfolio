@@ -8,7 +8,7 @@ import { StyledContainer, InterestContainer, AboutText, AboutTitle } from './sty
 
 const About: React.FC = () => {
   return(
-    <StyledContainer>
+    <StyledContainer >
       
       <Coding />
 

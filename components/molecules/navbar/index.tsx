@@ -7,10 +7,11 @@ const NavBar: React.FC = () => {
     <>
     <StyledNav>
       <Anchor href='#'>Home</Anchor>
-      <Anchor href='#'>About</Anchor>
-      <Anchor href='#'>Resume</Anchor>
-      <Anchor href='#'>Portfolio</Anchor>
-      <Anchor href='#'>Contact</Anchor>
+      <Anchor href='#about'>About</Anchor>
+      <Anchor href='#resume'>Resume</Anchor>
+      <Anchor href='#education'>Education</Anchor>
+      <Anchor href='#portfolio'>Portfolio</Anchor>
+      <Anchor href='#contact'>Contact</Anchor>
     </StyledNav>
     </>
   )

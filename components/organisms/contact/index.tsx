@@ -18,7 +18,7 @@ import {
 
 const Contact: React.FC = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id='contact'>
       <BgTop />
       <ContactContainer>
         <StyledTitle>Contact Me!</StyledTitle>

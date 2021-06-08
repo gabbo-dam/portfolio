@@ -27,6 +27,9 @@ const GlobalStyles = createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   body {
     line-height: 1;
   }

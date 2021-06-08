@@ -18,6 +18,7 @@ export const StyledContainer = styled(Container)`
 export const StyledTitle = styled(Title)`
   text-align: center;
   grid-column: 1 / 3;
+
 `
 export const GridHistory = styled(Container)`
   margin: 25px 0;

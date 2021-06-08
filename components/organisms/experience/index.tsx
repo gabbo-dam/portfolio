@@ -16,7 +16,7 @@ import {
 
 const Experience: React.FC = () => {
   return (
-    <Background>
+    <Background id='resume'>
       <BgTop />
       <ExperienceContainer>
         <WorkContainer>

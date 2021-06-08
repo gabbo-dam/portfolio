@@ -57,6 +57,15 @@ export const StyledTech = styled(Container)`
 export const StyledTitle = styled(Title)`
   text-align: center;
   margin: 50px 0;
+  &:after{
+    content: '';
+    display:block;
+    margin: 15px auto 0 auto;
+    width:50px;
+    height:7px;
+    background: #FD749B;
+    border-radius: 50px;
+  }
 `
 
 export const Space = styled(Container)`

@@ -28,8 +28,27 @@ export const AboutText = styled(Text)`
 `
 export const AboutTitle = styled(Title)`
   margin-bottom: 25px;
+  &:after{
+    content: '';
+    display:block;
+    width:15%;
+    height:7px;
+    margin-top: 15px;
+    background: #FD749B;
+    
+    border-radius: 50px;
+  }
   @media (min-width: 768px) {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    &:after{
+      content: '';
+      display:block;
+      width:10%;
+      height:7px;
+      margin-top: 15px;
+      background: #FD749B;
+      
+      border-radius: 50px;
   }
 `
 export const StyledGrid = styled(Container)`

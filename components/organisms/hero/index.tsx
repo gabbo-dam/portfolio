@@ -20,7 +20,10 @@ const Hero: React.FC = () => {
           <CoolCoding />
         </IconContainer>
       </HeroContainer>
-      <HeroFooter />
+
+      <Container id='about' >
+        <HeroFooter />
+      </Container>
     </Background>
   )
 }

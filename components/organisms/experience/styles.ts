@@ -6,7 +6,7 @@ import Title from '@atoms/title'
 
 
 
-export const Background = styled(Container)`
+export const Background = styled(Container)<any>`
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
 `
 export const Resume = styled(Title)`

@@ -21,5 +21,7 @@ export const StyledTitle = styled.h2<TitleProps>`
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+
+
 }
 `
