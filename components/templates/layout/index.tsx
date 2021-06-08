@@ -5,6 +5,7 @@ const Layout = (props:any) => {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/img/logo.svg" />
         <title>Gabriel Morales</title>
       </Head>
       <StyledLayout>
