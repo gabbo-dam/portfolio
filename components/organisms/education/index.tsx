@@ -23,7 +23,8 @@ const Education: React.FC = () => {
         <StyledTitle>Education</StyledTitle>
       <GridHistory>
       <Right>
-          <Course education="Platzi" date="2021" description="React Course" />
+          <Course education="Platzi" date="2021" description="Next Course" />
+          <Course description="React Course" />
           <Course description="Git and GitHub Professional Course" />
           <Course description="NPM Course" />
         </Right>
