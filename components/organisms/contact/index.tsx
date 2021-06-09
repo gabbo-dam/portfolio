@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
             </SvgText>
           </Anchor>
           <DownloadCV
-            href="/cv/Gabriel_Morales_CV.pdf"
+            href="/cv/GabrielMorales.pdf"
             download
           >
             <Download />
