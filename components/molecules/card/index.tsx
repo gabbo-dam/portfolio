@@ -4,7 +4,7 @@ import Title from '@atoms/title'
 
 import CardProps from './types'
 
-import { StyledCard, CardContent, StyledImg, CardFooter, StyledAnchor, StyledText, ButtonContainer } from './styles'
+import { StyledCard, CardContent, StyledImg, CardFooter, StyledAnchor, StyledText, ButtonContainer, Date } from './styles'
 
 
 const Card: React.FC<CardProps> = (props) => {
@@ -37,7 +37,7 @@ const Card: React.FC<CardProps> = (props) => {
           </ButtonContainer>
         </CardContent>
         <CardFooter>
-          <StyledText>Date {props.date}</StyledText>
+          <Date>Date {props.date}</Date>
         </CardFooter>
     </StyledCard>
   )

@@ -13,8 +13,8 @@ const Projects: React.FC = () => {
         alt='Portafolio Image'
         site='/'
         repo='https://github.com/gabbo-dam/portfolio'
-        title='Gabriel'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        title='Portfolio'
+        text={`Created Gabriel's portfolio using Next.js and Styled Components`}
         date=" 06, 2021"
         />        
         <Card
@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
         site='https://jetswap2.netlify.app/'
         repo='https://github.com/gabbo-dam/jetswap-frontend2'
         title='Jetswap'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Developed Jetswap by building a UI-Kit package for diverse interfaces and applications and assisted with the deployment'
         date=" 05, 2021"
         />        
         <Card
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
         site='https://quirky-meitner-24251a.netlify.app/'
         repo='https://github.com/gabbo-dam/fortress-landing'
         title='Fortress'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Programmed Fortress landing pages implementing the new responsive, mobile-first approach and best practices.'
         date=" 05, 2021"
         />        
         <Card
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
         site='https://galaxy777.netlify.app/'
         repo='https://github.com/gabbo-dam/galaxy-frontend-farms'
         title='Polaris'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Redesigned Polaris Interface and Assessed UX and UI designs for technical feasibility.'
         date=" 04, 2021"
         />        
         <Card
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
         site='https://wbs-token.netlify.app'
         repo='https://github.com/gabbo-dam/farming-wsb'
         title='WSB'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Programmed WSB landing pages implementing the new responsive, mobile-first approach and best practices.'
         date=" 03, 2021"
         />        
         <Card
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
         site='https://relaxed-johnson-0234d3.netlify.app/farm/LAYERXETHPool'
         repo='https://github.com/gabbo-dam/YieldFarming'
         title='Unilayer'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Redesigned Unilayer Interface and Assessed UX and UI designs for technical feasibility.'
         date=" 02, 2021"
         />        
         <Card
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
         site='https://voodoo-dollar.netlify.app'
         repo='https://github.com/gabbo-dam/VoodooDollar'
         title='Voodoo'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Redesigned Voodoo Dollar Interface and Assessed UX and UI designs for technical feasibility.'
         date=" 02, 2021"
         />        
         <Card
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
         site='https://angry-swanson-ff3e45.netlify.app/'
         repo='#'
         title='Simon Said'
-        text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, error accusantium beatae esse voluptates nostrum architecto'
+        text='Programmed Simon Said game on vanilla JavaScript'
         date=" 11, 2020"
         />        
       </CardsContainer>

@@ -1,17 +1,16 @@
-import Anchor from '@atoms/anchor'
 
-import { StyledNav } from './styles'
+import { StyledNav, StyledAnchor } from './styles'
 
-const NavBar: React.FC = () => {
+const NavBar: React.FC<any> = (props) => {
   return(
     <>
-    <StyledNav>
-      <Anchor href='#'>Home</Anchor>
-      <Anchor href='#about'>About</Anchor>
-      <Anchor href='#resume'>Resume</Anchor>
-      <Anchor href='#education'>Education</Anchor>
-      <Anchor href='#portfolio'>Portfolio</Anchor>
-      <Anchor href='#contact'>Contact</Anchor>
+    <StyledNav {...props}>
+      <StyledAnchor href='#'>Home</StyledAnchor>
+      <StyledAnchor href='#about'>About</StyledAnchor>
+      <StyledAnchor href='#resume'>Resume</StyledAnchor>
+      <StyledAnchor href='#education'>Education</StyledAnchor>
+      <StyledAnchor href='#portfolio'>Portfolio</StyledAnchor>
+      <StyledAnchor href='#contact'>Contact</StyledAnchor>
     </StyledNav>
     </>
   )
