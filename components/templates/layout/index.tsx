@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { StyledLayout } from './styles'
 
-const Layout = (props:any) => {
+const Layout = (props: any) => {
   return (
     <>
       <Head>

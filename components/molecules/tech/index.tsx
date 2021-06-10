@@ -3,12 +3,9 @@ import ImgText from '@molecules/imgtext'
 import TechProps from './types'
 
 const Tech: React.FC<TechProps> = (props) => {
-  return(
+  return (
     <>
-      <ImgText
-      src={props.src}
-      alt={props.alt}
-      >
+      <ImgText src={props.src} alt={props.alt}>
         {props.children}
       </ImgText>
     </>

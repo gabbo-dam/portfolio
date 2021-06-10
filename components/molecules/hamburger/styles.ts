@@ -9,7 +9,7 @@ export const Open = styled.div`
   display: block;
   cursor: pointer;
   transition: opacity 0.2s linear;
-  &:hover{
+  &:hover {
     opacity: 0.8;
   }
 `
@@ -35,7 +35,7 @@ export const Span = styled.span`
   }
   &:nth-child(3) {
     margin-top: 40px;
-    }
+  }
 `
 export const SubMenu = styled.ul`
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -76,13 +76,13 @@ export const Item = styled.li`
   }
 `
 export const Link = styled.a`
-color: #fff;
-font-family: "Lato", Arial, Helvetica, sans-serif;
-font-size: 16px;
-width: 100%;
-display: block;
-float: left;
-line-height: 40px;
+  color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 40px;
 `
 
 export const updown = keyframes`
@@ -103,4 +103,4 @@ export const updown = keyframes`
   35% {
     transform: translatey(-5px);
   }
-`;
+`

@@ -9,7 +9,7 @@ import Contact from '@organisms/contact'
 import Footer from '@organisms/footer'
 
 const App: React.FC = () => {
-  return(
+  return (
     <>
       <Menu />
       <Hero />

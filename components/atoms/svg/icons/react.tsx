@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Icon() {
   return (
@@ -17,7 +17,7 @@ function Icon() {
         <circle cx="420.9" cy="296.5" r="45.7"></circle>
       </g>
     </svg>
-  );
+  )
 }
 
-export default Icon;
+export default Icon

@@ -1,6 +1,4 @@
-
 import SvgText from '@molecules/svgtext'
-
 
 import HTML from '@atoms/svg/icons/html'
 import CSS from '@atoms/svg/icons/css'
@@ -19,65 +17,69 @@ import Illustrator from '@atoms/svg/icons/illustrator'
 import StyledComponents from '@atoms/svg/icons/styledcomponents'
 // import TechBg from '@atoms/svg/icons/tech_bg'
 
-import { StyledContainer, StyledTech, Background, StyledTitle, Space, TechBg } from './styles'
-
-
+import {
+  StyledContainer,
+  StyledTech,
+  Background,
+  StyledTitle,
+  Space,
+  TechBg,
+} from './styles'
 
 const Tech: React.FC = () => {
-  return(
+  return (
     <Background>
-    <TechBg>
-    <StyledContainer>
+      <TechBg>
+        <StyledContainer>
+          <StyledTitle>Tools and Technologies</StyledTitle>
 
-      <StyledTitle>Tools and Technologies</StyledTitle>
-
-      <StyledTech>
-        <SvgText text='HTML'>
-          <HTML />
-        </SvgText>
-        <SvgText text='CSS'>
-          <CSS />
-        </SvgText>
-        <SvgText text='JavaScript'>
-          <JavaScript />
-        </SvgText>
-        <SvgText text='TypeScript'>
-          <TypeScript />
-        </SvgText>
-        <SvgText text='React'>
-          <ReactIcon />
-        </SvgText>
-        <SvgText text='Next'>
-          <Next />
-        </SvgText>
-        <SvgText text='Styled'>
-          <StyledComponents />
-        </SvgText>
-        <SvgText text='Git'>
-          <Git />
-        </SvgText>
-        <SvgText text='GitHub'>
-          <GitHub />
-        </SvgText>
-        <SvgText text='NPM'>
-          <NPM />
-        </SvgText>
-        <SvgText text='Node'>
-          <Node />
-        </SvgText>
-        <SvgText text='Figma'>
-          <Figma />
-        </SvgText>
-        <SvgText text='Photoshop'>
-          <Photoshop />
-        </SvgText>
-        <SvgText text='Illustrator'>
-          <Illustrator />
-        </SvgText>
-      </StyledTech>
-      <Space />
-    </StyledContainer>
-    </TechBg>
+          <StyledTech>
+            <SvgText text="HTML">
+              <HTML />
+            </SvgText>
+            <SvgText text="CSS">
+              <CSS />
+            </SvgText>
+            <SvgText text="JavaScript">
+              <JavaScript />
+            </SvgText>
+            <SvgText text="TypeScript">
+              <TypeScript />
+            </SvgText>
+            <SvgText text="React">
+              <ReactIcon />
+            </SvgText>
+            <SvgText text="Next">
+              <Next />
+            </SvgText>
+            <SvgText text="Styled">
+              <StyledComponents />
+            </SvgText>
+            <SvgText text="Git">
+              <Git />
+            </SvgText>
+            <SvgText text="GitHub">
+              <GitHub />
+            </SvgText>
+            <SvgText text="NPM">
+              <NPM />
+            </SvgText>
+            <SvgText text="Node">
+              <Node />
+            </SvgText>
+            <SvgText text="Figma">
+              <Figma />
+            </SvgText>
+            <SvgText text="Photoshop">
+              <Photoshop />
+            </SvgText>
+            <SvgText text="Illustrator">
+              <Illustrator />
+            </SvgText>
+          </StyledTech>
+          <Space />
+        </StyledContainer>
+      </TechBg>
     </Background>
   )
 }

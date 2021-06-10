@@ -7,11 +7,11 @@ import { StyledContainer, Description } from './styles'
 import CourseProps from './types'
 
 const Course: React.FC<CourseProps> = (props) => {
-  return(
+  return (
     <StyledContainer>
-        <Text>{props.date}</Text>
-        <Title>{props.education}</Title>
-        <Description>- {props.description}</Description>
+      <Text>{props.date}</Text>
+      <Title>{props.education}</Title>
+      <Description>- {props.description}</Description>
     </StyledContainer>
   )
 }

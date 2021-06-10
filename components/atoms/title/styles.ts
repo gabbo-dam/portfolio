@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import TitleProps from './types'
 
 export const StyledTitle = styled.h2<TitleProps>`
-  color: ${({ color = ''}) => color};
-  font-size: ${({ size = '28px'}) => size}; 
+  color: ${({ color = '' }) => color};
+  font-size: ${({ size = '28px' }) => size}; 
 
   /* Fallback: Set a background color. */
   background-color: red;

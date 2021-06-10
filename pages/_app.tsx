@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   // Manejar errores - componentDidCatch
   return (
     <>
-      <Layout>      
+      <Layout>
         <GlobalStyles />
         <Component {...pageProps} />
       </Layout>

@@ -4,7 +4,7 @@ import { StyledAnchor } from './styles'
 import AnchorProps from './types'
 
 const Anchor: React.FC<AnchorProps> = (props) => {
-  return(
+  return (
     <>
       <Link href={props.href}>
         <StyledAnchor {...props}>{props.children}</StyledAnchor>

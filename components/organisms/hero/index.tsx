@@ -3,10 +3,19 @@ import Container from '@atoms/container'
 import CoolCoding from '@atoms/svg/icons/coolcoding'
 import HeroFooter from '@atoms/svg/icons/herofooter'
 
-import { Background, HeroContainer, StyledTitle, StyledText, StyledContainer, IconContainer, MobileContainer, Description } from './styles'
+import {
+  Background,
+  HeroContainer,
+  StyledTitle,
+  StyledText,
+  StyledContainer,
+  IconContainer,
+  MobileContainer,
+  Description,
+} from './styles'
 
 const Hero: React.FC = () => {
-  return(
+  return (
     <Background>
       <HeroContainer>
         <StyledContainer>
@@ -14,19 +23,21 @@ const Hero: React.FC = () => {
             <StyledText>Hello, I'm Gabriel Morales</StyledText>
             <StyledTitle>Front-end Developer</StyledTitle>
           </MobileContainer>
-          <Description>Dedicated to creating web applications and learn something new every day</Description>
+          <Description>
+            Dedicated to creating web applications and learn something new every
+            day
+          </Description>
         </StyledContainer>
         <IconContainer>
           <CoolCoding />
         </IconContainer>
       </HeroContainer>
 
-      <Container id='about' >
+      <Container id="about">
         <HeroFooter />
       </Container>
     </Background>
   )
 }
-
 
 export default Hero

@@ -2,7 +2,7 @@ import { StyledTitle } from './styles'
 import TitleProps from './types'
 
 const Title: React.FC<TitleProps> = (props) => {
-  return(
+  return (
     <>
       <StyledTitle {...props}>{props.children}</StyledTitle>
     </>

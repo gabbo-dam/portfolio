@@ -2,14 +2,13 @@ import styled from 'styled-components'
 import Container from '@atoms/container'
 import NavBar from '@molecules/navbar'
 
-
 export const StyledContainer = styled(Container)`
   width: 80%;
   height: 100px;
   margin: 0 auto;
   display: grid;
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     grid-template-columns: auto 80% auto;
   }
 `
@@ -26,13 +25,12 @@ export const HamburgerContainer = styled(Container)`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     display: none;
   }
 `
 export const Mobile = styled(Container)`
-
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     display: none;
   }
 `
@@ -44,7 +42,7 @@ export const MobileNavBar = styled(NavBar)`
   grid-column: 1 / 4;
   align-items: center;
   text-align: center;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     display: none;
   }
 `

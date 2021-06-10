@@ -8,26 +8,24 @@ export const StyledContainer = styled.section<any>`
   background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
 `
 export const DownloadCV = styled.a`
-display: block;
-cursor: pointer;
-text-decoration: none;
-font-size: 14px;
-font-weight: bold;
-color: #333333;
-width: 50%;
-padding: 20px 0;
-border-radius: 15px;
-margin: 0 auto;
-background-color: #ffffff;
-display: flex;
-justify-content: center;
-align-items: center;
-grid-column: 1 / 3;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  width: 50%;
+  padding: 20px 0;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / 3;
 
-
-@media (min-width: 768px) {
-  grid-column: 2 / 4;
-
+  @media (min-width: 768px) {
+    grid-column: 2 / 4;
   }
 `
 export const ContactContainer = styled(Container)`

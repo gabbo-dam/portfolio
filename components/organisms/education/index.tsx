@@ -1,4 +1,3 @@
-
 import Container from '@atoms/container'
 import Course from '@molecules/course'
 import ProgrammingPana from '@atoms/svg/icons/programming-pana'
@@ -19,10 +18,10 @@ import {
 
 const Education: React.FC = () => {
   return (
-    <StyledContainer id='education'>
-        <StyledTitle>Education</StyledTitle>
+    <StyledContainer id="education">
+      <StyledTitle>Education</StyledTitle>
       <GridHistory>
-      <Right>
+        <Right>
           <Course education="Platzi" date="2021" description="Next Course" />
           <Course description="React Course" />
           <Course description="Git and GitHub Professional Course" />
@@ -48,7 +47,6 @@ const Education: React.FC = () => {
           />
           <Course description="Basic JavaScript Course " />
           <Course description="JavaScript Basics 2018" />
-
         </Right2>
         <Left2>
           <Course
@@ -57,8 +55,7 @@ const Education: React.FC = () => {
             description="Web development with HTML5, CSS, JS, AJAX, PHP, and MySQL."
           />
         </Left2>
-    
-       
+
         <Right3>
           <Course
             education="High school"
@@ -66,7 +63,6 @@ const Education: React.FC = () => {
             description="High school Degree in science"
           />
         </Right3>
-
       </GridHistory>
 
       {/* <Course

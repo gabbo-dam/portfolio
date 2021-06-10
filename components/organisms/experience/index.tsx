@@ -16,7 +16,7 @@ import {
 
 const Experience: React.FC = () => {
   return (
-    <Background id='resume'>
+    <Background id="resume">
       <BgTop />
       <ExperienceContainer>
         <WorkContainer>
@@ -31,15 +31,17 @@ const Experience: React.FC = () => {
             position="Frontend Developer"
             company="Freelancer"
             date="Jan 17 - Current"
-          > 
-          - Programmed Fortress landing page. <br />
-        - Administered Jetswap Frontend Development. <br />
-        - Build and deploy a UI-Kit package implemented on Jetswap project. <br />
-        - Resolved Git conflicts and problems. <br />
-        - Assisted and Helped with the Jetswap UI-Kit deployment. <br />
-        - Redesigned Polaris Interface. <br />
-        - Created landing page for WSB Token project. <br />
-        - Developed Voodoo Dollar Interface.</StyledWork>
+          >
+            - Programmed Fortress landing page. <br />
+            - Administered Jetswap Frontend Development. <br />
+            - Build and deploy a UI-Kit package implemented on Jetswap project.{' '}
+            <br />
+            - Resolved Git conflicts and problems. <br />
+            - Assisted and Helped with the Jetswap UI-Kit deployment. <br />
+            - Redesigned Polaris Interface. <br />
+            - Created landing page for WSB Token project. <br />- Developed
+            Voodoo Dollar Interface.
+          </StyledWork>
         </WorkContainer>
       </ExperienceContainer>
       <BgBottom />

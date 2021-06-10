@@ -1,11 +1,9 @@
 import { StyledContainer, StyledText } from './styles'
 
 const Footer: React.FC = () => {
-  return(
+  return (
     <StyledContainer>
-      <StyledText>
-        Developed with ❤ by Gabriel © 2021
-      </StyledText>
+      <StyledText>Developed with ❤ by Gabriel © 2021</StyledText>
     </StyledContainer>
   )
 }

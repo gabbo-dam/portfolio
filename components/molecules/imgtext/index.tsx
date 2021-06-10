@@ -6,14 +6,9 @@ import { StyledContainer } from './styles'
 import ImgTextProps from './types'
 
 const ImgText: React.FC<ImgTextProps> = (props) => {
-  return(
+  return (
     <StyledContainer>
-      <Img 
-        src={props.src}
-        alt={props.alt}
-        layout="fill"
-        objectFit="cover"
-        />
+      <Img src={props.src} alt={props.alt} layout="fill" objectFit="cover" />
       <Text>{props.children}</Text>
     </StyledContainer>
   )
