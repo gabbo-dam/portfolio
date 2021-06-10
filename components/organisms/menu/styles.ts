@@ -35,6 +35,8 @@ export const Mobile = styled(Container)`
   }
 `
 export const MobileNavBar = styled(NavBar)`
+  width: 80%;
+  margin: 0 auto 10px auto;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
