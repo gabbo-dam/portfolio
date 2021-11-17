@@ -6,6 +6,8 @@ import Container from '@atoms/container'
 
 export const Background = styled.section`
   background: linear-gradient(174.48deg, #fd749b -12.41%, #281ac8 88.56%);
+  max-width: 2000px;
+  margin: 0 auto;
 `
 
 export const HeroContainer = styled(Container)`

@@ -6,6 +6,8 @@ import Title from '@atoms/title'
 
 export const Background = styled.section<any>`
   background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  max-width: 2000px;
+  margin: 0 auto;
 `
 export const Resume = styled(Title)`
   display: none;

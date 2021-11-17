@@ -48,9 +48,12 @@ const Contact: React.FC = () => {
               <Instagram />
             </SvgText>
           </Anchor>
-          <DownloadCV href="/cv/GabrielMorales.pdf" download>
+          <DownloadCV
+            href="https://docs.google.com/document/d/1ByPJCJ-umoYhXmdZjlX6Wb70jemm41oxMnDiUdO4u2A/edit?usp=sharing"
+            target="_blank"
+          >
             <Download />
-            Download CV
+            Gabriel Morales CV
           </DownloadCV>
         </ContactGrid>
       </ContactContainer>

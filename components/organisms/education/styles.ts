@@ -6,6 +6,7 @@ import Title from '@atoms/title'
 
 export const StyledContainer = styled.section`
   width: 80%;
+  max-width: 2000px;
   margin: 0 auto;
   display: grid;
   @media (min-width: 768px) {

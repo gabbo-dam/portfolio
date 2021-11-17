@@ -6,6 +6,8 @@ import Anchor from '@atoms/anchor'
 
 export const StyledContainer = styled.section<any>`
   background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  max-width: 2000px;
+  margin: 0 auto;
 `
 export const DownloadCV = styled.a`
   display: block;

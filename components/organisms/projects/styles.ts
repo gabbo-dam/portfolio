@@ -6,6 +6,7 @@ import Container from '@atoms/container'
 export const StyledContainer = styled.section<any>`
   width: 80%;
   margin: 0 auto 20px auto;
+  max-width: 2000px;
 `
 export const CardsContainer = styled(Container)`
   display: grid;

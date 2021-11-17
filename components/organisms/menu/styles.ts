@@ -7,6 +7,8 @@ export const StyledContainer = styled(Container)`
   height: 100px;
   margin: 0 auto;
   display: grid;
+  max-width: 2000px;
+  margin: 0 auto;
 
   @media (min-width: 768px) {
     grid-template-columns: auto 80% auto;

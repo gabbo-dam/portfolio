@@ -17,11 +17,12 @@ export const StyledContainer = styled(Container)`
 `
 export const Background = styled.section`
   padding: 100px 0 0 0;
-  margin: 0 0 50px 0;
+  margin: 0 auto 50px auto;
+  max-width: 2000px;
   background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
 
   @media (min-width: 768px) {
-    margin: 0 0 100px 0;
+    margin: 0 auto 100px auto;
   }
 `
 export const TechBg = styled(Container)`

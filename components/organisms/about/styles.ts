@@ -5,8 +5,9 @@ import Container from '@atoms/container'
 
 export const StyledContainer = styled.section`
   width: 80%;
-  margin: 0 auto;
   align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
