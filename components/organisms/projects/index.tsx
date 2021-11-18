@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
         <Card
           src="/img/jetswap.png"
           alt="Jetswap Image"
-          site="https://jetswap2.netlify.app/"
+          site="https://jetswap.finance/"
           repo="https://github.com/gabbo-dam/jetswap-frontend2"
           title="Jetswap"
           text="Developed Jetswap by building a UI-Kit package for diverse interfaces and applications and assisted with the deployment"
