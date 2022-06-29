@@ -49,8 +49,7 @@ const Contact: React.FC = () => {
             </SvgText>
           </Anchor>
           <DownloadCV
-            href="https://docs.google.com/document/d/1ByPJCJ-umoYhXmdZjlX6Wb70jemm41oxMnDiUdO4u2A/edit?usp=sharing"
-            target="_blank"
+            href="/cv/GabrielMorales.pdf"
           >
             <Download />
             Gabriel Morales CV
